@@ -1,0 +1,19 @@
+.member-container{
+    border-top: 2px solid rgba(49, 49, 49, 0.12);
+    border-bottom: 2px solid rgba(49, 49, 49, 0.12);
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    margin-right: 20px;
+}
+
+.member-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 25%;
+    object-fit: cover;
+}

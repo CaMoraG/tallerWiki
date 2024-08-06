@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki del Equipo</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -17,20 +18,20 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-menu">
-                <a href="#">Descripción del Proyecto</a>
-                <a href="#">Requerimientos</a>
-                <a href="#">Arquitectura</a>
-                <a href="#">Modelos</a>
-                <a href="#">Desarrollo</a>
-                <a href="#">Pruebas</a>
-                <a href="#">Despliegue</a>
+                <a th:href="@{/descripcion}">Descripción del Proyecto</a>
+                <a th:href="@{/requerimientos}">Requerimientos</a>
+                <a th:href="@{/arquitectura}">Arquitectura</a>
+                <a th:href="@{/modelos}">Modelos</a>
+                <a th:href="@{/desarrollo}">Desarrollo</a>
+                <a th:href="@{/pruebas}">Pruebas</a>
+                <a th:href="@{/despliegue}">Despliegue</a>
             </div>
         </div>
         <div class="nav-element" id="nav-selected">
             <a href="" >Portada</a>
         </div>
         <div class="nav-element">
-            <a href="/controllers/contact">Contáctenos</a>
+            <a href="/contact">Contáctenos</a>
         </div>
     </nav>
     
@@ -38,10 +39,54 @@
         <section>
             <h2>Acerca de la Wiki</h2>
             <p>En esta wiki se encuentra toda la información relevante del equipo (nombre) y el proyecto (nombrex2) 
-                incluido sus requerimientos, diseño, implementación, testeo y despliegue</p>
+                incluido sus requerimientos, diseño, implementación, testeo y despliegue.</p>
         </section>
         <section>
             <h2>Presentación del Equipo</h2>
+            <div class="member-container">
+                <div class="photo-container">
+                    <img src="images/example.jpg" alt="Foto del Integrante" class="member-photo">
+                </div>
+                <div class="info-container">
+                    <h3>Nombre</h3>
+                    <p><strong>Rol:</strong></p>
+                    <p><strong>Lenguajes:</strong></p>
+                    <p><strong>Perfil Técnico:</strong></p>
+                </div>
+            </div>
+            <div class="member-container">
+                <div class="photo-container">
+                    <img src="images/example.jpg" alt="Foto del Integrante" class="member-photo">
+                </div>
+                <div class="info-container">
+                    <h3>Nombre</h3>
+                    <p><strong>Rol:</strong></p>
+                    <p><strong>Lenguajes:</strong></p>
+                    <p><strong>Perfil Técnico:</strong></p>
+                </div>
+            </div>
+            <div class="member-container">
+                <div class="photo-container">
+                    <img src="images/example.jpg" alt="Foto del Integrante" class="member-photo">
+                </div>
+                <div class="info-container">
+                    <h3>Nombre</h3>
+                    <p><strong>Rol:</strong></p>
+                    <p><strong>Lenguajes:</strong></p>
+                    <p><strong>Perfil Técnico:</strong></p>
+                </div>
+            </div>
+            <div class="member-container">
+                <div class="photo-container">
+                    <img src="images/example.jpg" alt="Foto del Integrante" class="member-photo">
+                </div>
+                <div class="info-container">
+                    <h3>Nombre</h3>
+                    <p><strong>Rol:</strong></p>
+                    <p><strong>Lenguajes:</strong></p>
+                    <p><strong>Perfil Técnico:</strong></p>
+                </div>
+            </div>
 
         </section>
         
